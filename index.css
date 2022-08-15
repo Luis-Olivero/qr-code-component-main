@@ -12,7 +12,53 @@ img {
     max-width: 100%;
 }
 
+.container {
+    width: 40%;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 3px solid #fff;
+    border-radius: 25px;
+}
+
 .card {
-    border: 3px solid red;
-    width: 100%;
+    /* border: 3px solid red; */
+    border-radius: 25px;
+
+}
+
+.card__img {
+    border-radius: 25px 25px 0 0;
+    padding: .25em .25em 0 .25em;
+}
+
+.card__text {
+    font-family: 'Roboto', sans-serif;
+    padding: 0 1em;
+}
+
+.card__text h2 {
+    color: black;
+}
+
+.card__text p {
+    color: rgb(37, 37, 37);
+}
+
+footer {
+    margin: 3em auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.attribution {
+    font-size: 1.5rem;
+    background-color: beige;
+    width: 40%;
+    border-radius: 10px;
+    padding: .75em;
+}
+
+.attribution a {
+    text-decoration: none;
 }
