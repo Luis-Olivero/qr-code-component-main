@@ -1,0 +1,11 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/background.jpg");
+}
+
+img {
+    max-width: 100%;
+}
